@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 16, 2022 at 05:22 PM
+-- Generation Time: Mar 16, 2022 at 05:31 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -155,7 +155,7 @@ CREATE TABLE `orders` (
   `qty` float NOT NULL,
   `pay_type_id` int(10) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  `created_date` date NOT NULL DEFAULT current_timestamp()
+  `created_date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
